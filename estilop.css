@@ -1,0 +1,188 @@
+
+* {
+    margin: 0;
+    padding: 0;}
+
+    .pacifico-regular {
+      font-family: "Pacifico", cursive;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      color: rgb(45, 45, 45);
+      font-size: 35px;
+    }
+    
+    .text-image-container {
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+  }
+  
+  .text-content {
+      font-size: 45px;
+      font-family: "Permanent Marker", cursive;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      text-shadow: 
+      3px 3px 0 #050505,  
+      -3px -3px 0 #ADD8E6, 
+      3px -3px 0 #ADD8E6,  
+      -3px 3px 0 #ADD8E6; 
+  }
+  
+  .image {
+      width: 150px;
+      height: auto;
+  }
+
+header{
+    background-image: url(/imagenes/pastel\ azul.jpg);
+    background-repeat:no-repeat; 
+    background-size: 100% 100%;
+}
+
+.menu {
+  background-size: 200px 80px;
+  background-repeat:no-repeat;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu ul li:last-child {
+  margin-right: 0;
+}
+.menu ul li a {
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.menu ul li a:hover {
+  transform: translateY(3px); 
+  background-color: #FFDAB9; 
+}
+
+#Inicio {
+  padding: 60px;
+  background-image: url(/imagenes/sub.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-family: serif;
+}
+#Inicio {
+  margin-top: 0;
+}
+
+#contenedor {
+list-style: 20px;  
+}
+
+.caja {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 200px; 
+}
+
+.text {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.img {
+  width: 350px; 
+  height: auto; 
+}
+
+.sub{ 
+  text-align: center;
+  padding: 100px 0 0;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 600;
+  font-style:normal;
+}
+
+.sub2{ 
+  text-align: center;
+  padding: 100px 0 50px;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 600;
+  font-style:normal;
+}
+
+.img2 {
+  width: 80%; 
+  height: auto;
+}
+
+.h2{
+  text-align: center;
+}
+
+.footer {
+  background-color: #000000; 
+  color: white;           
+  padding: 20px 0;        
+  text-align: center;     
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1000px;     
+  margin: 0 auto;       
+}
+
+.footer-nav a {
+  color: white;        
+  margin: 0 10px;        
+  text-decoration: none;  
+}
+
+.footer-nav a:hover {
+  text-decoration: underline; 
+}
+
+.fila {
+  display: flex;
+  justify-content:center; 
+  gap: 20px;
+  width: 100%;
+}
+
+.fila img {
+  width: 250px; 
+  height: 250px; 
+  object-fit: cover;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton2 {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  background-color:#2440e2;
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+}

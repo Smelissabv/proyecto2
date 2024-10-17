@@ -1,0 +1,41 @@
+.menu {
+    background-size: 200px 80px;
+    background-repeat:no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .menu ul li:last-child {
+    margin-right: 0;
+  }
+  .menu ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  .menu ul li a:hover {
+    transform: translateY(3px); 
+    background-color: #FFDAB9; 
+  }
+
+  .cuadrado {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 400px; /* Ajusta el tamaño según necesites */
+    height: 400px; /* Ajusta el tamaño según necesites */
+}
+.cuadrado img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para que las imágenes mantengan su proporción */
+}
