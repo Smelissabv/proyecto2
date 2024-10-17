@@ -44,7 +44,7 @@
 }
 
 header{
-  background-image: url(/imagenes/pastel\ azul.jpg);
+  background-image: url(imagenes/pastel\ azul.jpg);
   background-repeat:no-repeat; 
   background-size: 100% 100%;
 }
@@ -83,7 +83,7 @@ background-color: #FFDAB9;
 
 #Inicio {
 	padding: 60px;
-	background-image: url(/imagenes/sub.jpg);
+	background-image: url(imagenes/sub.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	color: rgb(0, 0, 0);
