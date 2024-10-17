@@ -11,13 +11,13 @@
   }
   .menu ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 0px;
   }
   .menu ul li:last-child {
     margin-right: 0;
   }
   .menu ul li a {
-    color: rgb(0, 0, 0);
+    color: #1e3dec;
     text-decoration: none;
     padding: 10px 20px;
     display: block;
@@ -25,17 +25,19 @@
   }
   .menu ul li a:hover {
     transform: translateY(3px); 
-    background-color: #FFDAB9; 
+    background-color: #6b4727; 
   }
+
 
   .cuadrado {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3,1 fr);
     width: 400px; /* Ajusta el tamaño según necesites */
     height: 400px; /* Ajusta el tamaño según necesites */
+    gap: 80px;
 }
 .cuadrado img {
-    width: 100%;
+    width: 140%;
     height: 100%;
     object-fit: cover; /* Para que las imágenes mantengan su proporción */
 }
